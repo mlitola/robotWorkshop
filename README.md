@@ -1,5 +1,5 @@
-# robotWorkshop
-Material for Robot framework workshop
+# Robot Workshop
+This is contains "getting started" material for a robot framework workshop
 
 ## Prerequisite(s)
 In order to install robot framework you have to have python pip installed (and homebrew for macos users). Then install the following:
@@ -12,7 +12,7 @@ To install robot framework use command line:
 brew install robot-framework
 ```
 
-2. Linux (Debian, CentOS/RHEL, Pacmen etc.) using python pip 
+2. Linux (Debian, CentOS/RHEL, Pacman etc.) using python pip 
 ```
 sudo -H pip install robotframework
 ```
@@ -35,7 +35,7 @@ brew install chromedriver
 brew install geckodriver
 ```
 
-2. Linux (Debian, CentOS/RHEL, Pacmen etc.)
+2. Linux (Debian, CentOS/RHEL, Pacman etc.)
 ```
 # chrome
 # OBS. make sure your browser version is the same as the webdriver
@@ -61,8 +61,8 @@ robot ping-chrome.robot
 # firefox
 robot ping-firefox.robot
 ```
-If the test run shows two green PASS strings after test name -> everything is ready.
+If the test run shows two green PASS strings after test name -> **you are good to go**.
 
-If the test run shows FAIL strings then check that the install steps were completed successfully.
+If the test run shows FAIL strings then check that the install steps were completed successfully and try again.
 
 Happy robot testing!
