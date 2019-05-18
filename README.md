@@ -2,7 +2,7 @@
 Material for Robot framework workshop
 
 ## Prerequisite(s)
-In order to use robot framework you have to have python pip installed (and homebrew for macos users). Then install the following:
+In order to install robot framework you have to have python pip installed (and homebrew for macos users). Then install the following:
 
 ### Install Robot Framework
 To install robot framework use command line:
