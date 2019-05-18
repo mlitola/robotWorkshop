@@ -38,8 +38,12 @@ brew install geckodriver
 2. Linux (Debian, CentOS/RHEL, Pacmen etc.)
 ```
 # chrome
+# OBS. make sure your browser version is the same as the webdriver
+# for older than 75.0 versions of the chrome check the following site:
+# http://chromedriver.chromium.org/downloads
 wget https://chromedriver.storage.googleapis.com/75.0.3770.8/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
+chmod +x chromedriver
 sudo mv chromedriver /usr/local/bin/
 
 # firefox
