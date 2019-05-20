@@ -2,10 +2,10 @@
 Quick start guide for setting up Robot Framework.
 
 ## Prerequisite(s)
-In order to install robot framework you have to have python pip installed (and homebrew for macos users). Then install the following:
+This install guide requires you have to have python pip installed (and homebrew for MacOS users).
 
 ### Install Robot Framework
-To install robot framework use command line:
+To install Robot Framework do the following from command line:
 
 1. MacOS "Darwin" using homebrew 
 ```
@@ -23,8 +23,8 @@ Use pip for this:
 pip install robotframework-selenium2library
 ```
 
-### Install Webdriver (Chrome, Firefox)
-Used examples Chrome and Firefox (make sure you have also the corresponding browser installed)
+### Install Webdriver (Chrome or Firefox)
+Install Chrome and/or Firefox webdriver (make sure you have also the corresponding browser installed):
 
 1. MacOS "Darwin" using homebrew
 ```
@@ -65,4 +65,4 @@ If the test run shows two green PASS strings after test name -> **you are good t
 
 If the test run shows FAIL strings then check that the install steps were completed successfully and try again.
 
-Happy robot testing!
+**Happy robot testing!**
