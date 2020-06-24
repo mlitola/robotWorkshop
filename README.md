@@ -12,7 +12,7 @@ To install Robot Framework do the following from command line:
 brew install robot-framework
 ```
 
-2. Linux (Debian, CentOS/RHEL, Pacman etc.) using python pip 
+2. Linux (Debian, CentOS/RHEL etc.) using python pip 
 ```
 sudo -H pip install robotframework
 ```
@@ -35,7 +35,7 @@ brew cask install chromedriver
 brew install geckodriver
 ```
 
-2. Linux (Debian, CentOS/RHEL, Pacman etc.)
+2. Linux (Debian, CentOS/RHEL etc.)
 ```
 # chrome
 # OBS. make sure your browser version is the same as the webdriver
@@ -49,7 +49,6 @@ sudo mv chromedriver /usr/local/bin/
 # firefox
 wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz
 tar -xvzf geckodriver-v0.24.0-linux64.tar.gz
-sudo mv chromedriver /usr/local/bin/
 ```
 
 ### Test Robot Framework
